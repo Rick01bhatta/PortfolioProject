@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Website</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">\
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
@@ -72,8 +73,35 @@
         </div>
 
       </div>
+             <!--Skill Section-->
 
     </section>
+    <section class="skills-section" id="skills">
+        <h2>Skills & Expertise</h2>
+        <div class="skills-grid">
+            <!-- JavaScript will dynamically add skill cards here -->
+        </div>
+    </section>
+              <!-- Project Gallery Section-->
+    
+    <section id="projectGallery">
+    <div class="container">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <!-- Project cards will be added here -->
+        </div>
+    </div>
+  </section>
+  <article class="project-card">
+    <img src="project1.jpg" alt="Project 1" class="project-image">
+    <div class="project-info">
+        <h3>Currency Converter With React</h3>
+        <p>A responsive web application built with React that allows users to convert values between different currencies in real time. It fetches live exchange rates from an external API and updates results instantly based on user input. The project demonstrates React hooks, API integration, and form handling with a clean user interface.</p>
+         <div class="modal-buttons">
+            <a href="https://github.com/Rick01bhatta/CurrencyConverter" id="project-link" target="_blank">View Project</a>
+        </div>
+    </div>
+</article>
 
 </body>
 </html>
